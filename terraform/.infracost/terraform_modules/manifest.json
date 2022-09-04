@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"pipeline","Source":"./modules/pipeline","Dir":"modules/pipeline"},{"Key":"vpc","Source":"./modules/vpc","Dir":"modules/vpc"},{"Key":"ecs","Source":"./modules/ecs","Dir":"modules/ecs"}]}

@@ -1,0 +1,16 @@
+git_repository_owner  = "kyouch"
+git_repository_name   = "devops_test"
+git_repository_branch = "main"
+ecs_cluster_name      = "the-one-cluster-to-rule-them-all"
+ecr_repository_name   = "getninjas-devops-test"
+app_container_name    = "go-healthcheck"
+app_service_name      = "go-healthcheck-app"
+desired_tasks         = 2
+min_tasks             = 1
+max_tasks             = 4
+cpu_to_scale_up       = 80
+cpu_to_scale_down     = 30
+task_cpu              = 256
+task_memory           = 512
+alb_port              = 80
+container_port        = 80
