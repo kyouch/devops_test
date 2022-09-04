@@ -9,6 +9,7 @@ phases:
 
   build:
     commands:
+      - cd app/
       - go test
       - go build -o ${app_container_name}
       - docker build -t $REPOSITORY_URL:latest .
